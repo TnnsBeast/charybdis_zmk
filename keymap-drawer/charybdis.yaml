@@ -19,44 +19,44 @@ layers:
   - E
   - R
   - T
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Y
   - U
   - I
   - O
   - P
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
   - DELETE
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT GUI}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT GUI}
-  - {t: L, h: RIGHT ALT}
-  - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - J
+  - K
+  - L
+  - ;
+  - ''''
   - LEFT SHIFT
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - Z
   - X
   - C
   - V
   - B
   - N
   - M
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - ','
+  - .
+  - /
   - RSHIFT
-  - {t: TAB, h: NUMBERS}
-  - SPACE
+  - LEFT COMMAND
+  - BACK SPACE
   - {t: LEFT GUI, h: NAV-FUN}
   - {t: ENTER, h: NUMBERS}
-  - BACK SPACE
-  - R CLK
+  - SPACE
   - L CLK
-  - NAV-FUN
+  - R CLK
+  - {t: '`', h: SCROLL}
   NUMBERS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,10 +106,10 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - {type: held}
+  - {t: ▽, type: trans}
   - BACK SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -569,7 +569,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   SNIPER:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
